@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background-size: cover;
+  text-align: center;
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+.hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hour-hand {
+  width: 30%;
+  left: 45px;
+  background-color: black;
+}
+.second-hand {
+  width: 45%;
+  background-color: red;
+  left: 10px;
+}
+.min-hand {
+  width: 40%;
+  left: 22px;
+  background-color: green;
+}
+.number {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}
+.number1 {
+  top: 15%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+}
+.number2 {
+  top: 30%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+}
+.number3 {
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+.number4 {
+  top: 70%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+}
+.number5 {
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.number6 {
+  top: 98%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.number7 {
+  top: 88%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.number8 {
+  top: 70%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+}
+
+.number9 {
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.number10 {
+  top: 30%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+}
+.number11 {
+  top: 15%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.number12 {
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
