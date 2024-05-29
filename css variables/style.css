@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --base: #ffcc600;
+    --spacing: 10px;
+    --blur: 10px;
+} 
+#img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.h1{
+    color: var(--base);
+}
+body{
+    text-align: center;
+    background: #193539;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 50px;
+}
+input{
+    width: 100px;
+}
