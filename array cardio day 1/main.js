@@ -12,7 +12,7 @@ const inventors = [
   { first: "Lise", last: "Meitner", year: 1878, passed: 1968 },
   { first: "Hanna", last: "Hammarström", year: 1829, passed: 1909 },
 ];
-
+  
 const people = [
   "Bernhard, Sandra",
   "Bethea, Erin",
